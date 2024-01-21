@@ -20,7 +20,8 @@ with col2:
     if p == q:
         st.error("p and q must be different")
 with col3:
-    e = st.number_input("Enter an integer (e): ", value=7)
+    e = st.number_input("Enter an integer (e): ", value=3)
+    st.write("e is usually set to 3, 5, 17 or 65537.")
 
 
 public_key = None
